@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auto-service Mansour</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <style>
+      .auto_reifen{
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+    position: relative;
+    background-color: white;
+    display: block;
+    gap: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+    gap: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+     @media (max-width: 700px) {
+     
+    .container .contain{
+      width: 750px;
+  
+    }
+    .table_extras{
+      font-size: 0.7;
+    }
+    .main-title {
+      font-size: 20px;
+    }
+    .ueberuns-p p{
+      font-size: 20px;
+    }
+    .table_extras{
+    display: flex;
+    /* flex-direction:; */
+    justify-content: space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+    color: var(--main-color);
+  }
+    .landing::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -40px;
+    width: 100%;
+    height: 100%;
+    background-color: #ececec;
+    background-image: url(./imgs/index_moo.jpg);
+    background-size: cover;
+    z-index: -1;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+}
+
+
+.header{
+  font-size: 20px;
+}
+  }
+
+  @media (max-width: 300px) {
+    .container .contain{
+      width: 290px;
+    }
+    .table_extras{
+      font-size: 0.7;
+    }
+    .main-title {
+      font-size: 10px;
+    }
+    .ueberuns-p p{
+      font-size: 10px;
+    }
+   
+.header{
+  font-size: 5px;
+}
+  }
+
+ 
+  </style>
+  </head>
+  <body>
+    <!-- Start Header -->
+    <div class="header" id="header">
+      <div class="container">
+        <!-- <img src="./imgs/link/AUTOSERVICE_MANSOUR.png" style="height: 50px; width: 50px;">  -->
+        <a href="#" class="logo"><img src="./imgs/link/AUTOSERVICE_MANSOUR.png"></a>
+        
+        <ul class="main-nav">
+          <li><a href="./link/ueberuns.html#ueberuns" >&Uuml;ber uns</li></a>
+          <li><a href="#services">Service-Arbeiten</a></li>
+          <li><a href="#services">Reifen Service</a></li>
+          <li><a href="#services">Auto Aufbereitung</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Header -->
+    <!-- Start Landing -->
+    <div class="landing">
+      <div class="container">
+        <div class="text">
+          <!-- <h1>Welkommen, in Auto World</h1> -->
+          <!-- <p>Here Iam gonna share everything about my life. Books Iam reading, Games Iam Playing, Stories and Events</p> -->
+        </div>
+        <div class="image">
+          <!-- <img src="imgs/Hintergrund.jpg" alt="" /> -->
+        </div>
+      </div>
+      <a href="#services" class="go-down">
+        <i class="fas fa-angle-double-down fa-2x"></i>
+      </a>
+    </div>
+    
+    <!-- Start Features -->
+    <div class="features" id="services">
+      <h2 class="main-title">Service</h2>
+      <div class="container">
+        <div class="box quality">
+          <div class="img-holder"> <img src="imgs/car/car (2).jpeg" alt=""/></div>
+          <h2>Service-Arbeiten</h2>
+          <p>Wartungsarbeiten</p>
+          <a href="./link/service_arbeiten.html#service_arbeiten">Mehr</a>
+        </div>
+        <div class="box time">
+          <div class="img-holder"><img src="imgs/car/car (3).jpeg" alt="" /></div>
+          <h2>Reifen Service</h2>
+          <p>Reifen Dienst </p>
+          <a href="./link/reifen_service.html#reifen_service">Mehr</a>
+        </div>
+        <div class="box passion">
+          <div class="img-holder"><img src="imgs/car/car (6).jpeg" alt="" /></div>
+          <h2>Autoaufbereitung</h2>
+          <p>Fresh Car</p>
+          <a href="./link/auto_aufbereitung.html#services_aufberitung">Mehr</a>
+        </div>
+        <!-- <div class="box passion">
+          <div class="img-holder"><img src="imgs/car/car (6).jpeg" alt="" /></div>
+          <h2>Auto Glass</h2>
+          <p>Glass</p>
+          <a href="#">More</a>
+        </div> -->
+
+      </div>
+    </div>
+    <!-- End Features -->
+
+    <div class="spikes"></div> 
+    <!-- End Team -->
+    <!-- Start Services -->
+    <div class="services" id="contact">
+      <h2 class="main-title">Kontakt</h2>
+      <div class="container">
+        <div class="box">
+          
+          <a href="https://www.facebook.com/people/Fresh-Car-Kaiserslautern/100063715956107/"><i class="fab fa-facebook-f icon-ibra facebook"></i></a>
+          <h3>facebook</h3>
+          <div class="info">
+            <a href="https://www.facebook.com/people/Fresh-Car-Kaiserslautern/100063715956107/">facebook</a>
+          </div>
+        </div>
+        <div class="box">
+          <a href="https://www.instagram.com/autoservicemansour/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class='fab fa-instagram icon-ibra insta'></i></a>
+          <h3>Instagram</h3>
+          <div class="info">
+            <a href="https://www.instagram.com/autoservicemansour/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">Instagram</a>
+          </div>
+        </div>
+        <div class="box">
+          <a href="https://goo.gl/maps/8Eaks1n3fGFmywJ47"><i class='fas fa-location-arrow icon-ibra google'></i></a>
+          <!-- <i class="fas fa-map-marked-alt fa-4x"></i> -->
+          <h3>Adresse</h3>
+          <div class="info">
+            <a href="https://goo.gl/maps/8Eaks1n3fGFmywJ47">Adresse</a>
+          </div>
+        </div>
+        <div class="box">
+          <a href="https://api.whatsapp.com/send?phone=+4915773157380"><i class='fab fa-whatsapp icon-ibra whatsapp'></i></a>
+          <h3>Whatsapp</h3>
+          <div class="info">
+            <a href="https://api.whatsapp.com/send?phone=+4915773157380">Whatsapp</a>
+          </div>
+        </div>
+        <div class="box">
+          <a href="tel:00496303870682"><i class='fas fa-phone-alt icon-ibra'></i></a>
+          <h3>Telefon</h3>
+          <div class="info">
+            <a href="tel:00496303870682">Telefon</a>
+          </div>
+        </div>
+        <div class="box">
+          <a href="mailto:Info@autoservice-mansour.de"><i class="fa fa-envelope" style="font-size: 80px;"></i></a>
+          <h3>E-Mail</h3>
+          <div class="info">
+            <a href="mailto:Info@autoservice-mansour.de">E-Mail</a>
+          </div>
+        </div>
+        <!-- <div class="box">
+          <a href="#"><i class='fab fa-youtube icon-ibra youtube'></i></a>
+          <h3>Youtube</h3>
+          <div class="info">
+            <a href="#">Youtube</a>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <!-- End Services -->
+    
+     <!-- Start Features -->
+     <div class="features" id="services">
+      <!-- <h2 class="main-title">Reifen Informationen System</h2> -->
+      <div class="auto_reifen">
+            <div class="box passion" style="margin-bottom: 15px;">
+                <div class="img-holder"><img src="" alt="" /></div>
+                <h2>Reifen Informationen System</h2>
+                <p>Nutzen Sie unsere Komfort-Reifensuche um passende Reifen zu finden.</p>
+                <a href="https://www.reifen-info-system.de/tyre.php?shop_id=301224">Hier</a>
+            </div>
+            
+      </div>
+    </div>
+    <!-- End Features -->
+  
+    <!-- Start Footer -->
+   <div class="footer">
+    <div class="container">
+      <div class="box">
+        <h3>Auto-service Mansour</h3>
+        <ul class="social">
+          <li>
+            <a href="https://www.facebook.com/people/Fresh-Car-Kaiserslautern/100063715956107/" class="facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://api.whatsapp.com/send?phone=+4915773157380" class="twitter">
+                <i class="fa fa-whatsapp"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/autoservicemansour/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="youtube">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text">
+          Ihre Zufriedenheit ist uns wichtig
+        </p>
+        <ul class="links">
+          <li><a href="./link/datenschutz.html">Datenschutzerkl&auml;rung</a></li>
+          <li><a href="./link/Impressum.html">Impressum</a></li>
+          <!-- <li><a href="#">Important Link 3</a></li>
+          <li><a href="#">Important Link 4</a></li>
+          <li><a href="#">Important Link 5</a></li> -->
+        </ul>
+      </div>
+      <div class="box">
+        <!-- <ul class="links">
+          <li><a href="./link/datenschutz.html">Datenschutzerkl&szlig;rung</a></li>
+          <li><a href="#">Important Link 2</a></li>
+          <li><a href="#">Important Link 3</a></li>
+          <li><a href="#">Important Link 4</a></li>
+          <li><a href="#">Important Link 5</a></li>
+        </ul> -->
+      </div>
+      <div class="box">
+        <div class="line">
+          <a href="https://goo.gl/maps/QY3T82s71WWFrjCP6"><i class="fas fa-map-marker-alt fa-fw"></i></a>
+          <div class="info">Deutschland<br>67678 Mehlingen<br>K&ouml;nigstra&szlig;e 56 </div>
+        </div>
+        <div class="line">
+          <i class="far fa-clock fa-fw"></i>
+          <div class="info">&Ouml;fnnungszeiten:<br>Mo - Fr : 08 - 17 Uhr<br>Sa : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08 - 16 Uhr</div>
+        </div>
+        <div class="line">
+          <a href="tel:+49 157 731 573 80"><i class="fas fa-phone-volume fa-fw"></i></a>
+          <div class="info">
+            <span>+49 157 731 573 80</span>
+            <span>+49 630 387 068 2</span>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="box footer-gallery">
+        <img src="./imgs/gallery-011.jpg" alt="" />
+        <img src="./imgs/gallery-022.jpg" alt="" />
+        <img src="./imgs/gallery-03.jpg" alt="" />
+        <img src="./imgs/gallery-04.jpg" alt="" />
+        <img src="./imgs/gallery-05.jpg" alt="" />
+        <img src="./imgs/gallery-06.jpg" alt="" />
+      </div>
+    </div>
+   </div>
+  <!-- End Footer -->
+    
+    <script src="js/main.js"></script>
+  </body>
+</html>
